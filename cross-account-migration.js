@@ -53,7 +53,7 @@ const migration = asyncPipe(
   scanDatabase,
   getCrossAccountAccess,
   initNewDynamoDbClient,
-  splitForWirtes(),
+  splitForWrites(),
   convertItemsToPromises
 )
 
