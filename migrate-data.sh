@@ -16,4 +16,4 @@ fi
 
 set -eu
 
-ACCESS_KEY=${1} SECRET_KEY=${2} TABLE_EXPORT=DynamodbExportTable TABLE_IMPORT=DynamoDbImportTable node ./index.js 
+ACCESS_KEY=${1} SECRET_KEY=${2} TABLE_EXPORT=DynamodbExportTable TABLE_IMPORT=DynamoDbImportTable node ./within-account-migration.js 
