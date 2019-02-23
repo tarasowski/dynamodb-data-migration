@@ -1,0 +1,18 @@
+{
+  "name": "001_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dimitri Tarasowski <dimitri+npm@tarasowski.de>",
+  "license": "ISC",
+  "dependencies": {
+    "compose.helpers": "file:compose.helpers"
+  }
+}
