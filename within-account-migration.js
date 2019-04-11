@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk')
 const dynamodb = new AWS.DynamoDB.DocumentClient({region: 'eu-central-1'})
 const {splitEvery} = require('ramda')
-const {asyncPipe} = require('compose.helpers')
+const asyncPipe = (...fns) => x => fns.reduce(async (v, f) => f(await v), x)
 
 const TABLE_EXPORT = process.env.TABLE_EXPORT 
 const TABLE_IMPORT = process.env.TABLE_IMPORT 

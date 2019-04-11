@@ -13,6 +13,9 @@
   "author": "Dimitri Tarasowski <dimitri+npm@tarasowski.de>",
   "license": "ISC",
   "dependencies": {
-    "compose.helpers": "file:compose.helpers"
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.437.0"
   }
 }
